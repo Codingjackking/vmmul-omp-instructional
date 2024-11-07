@@ -30,8 +30,8 @@ export OMP_PROC_BIND=spread
 
 for t in 1 4 16 64
    do
-   # export OMP_NUM_THREADS=$t   
-   export OMP_NUM_THREADS=1
+   export OMP_NUM_THREADS=$t   
+   # export OMP_NUM_THREADS=1
 
    echo "OMP_NUM_THREASDS = " $OMP_NUM_THREADS
    ./benchmark-@BENCHMARK@
