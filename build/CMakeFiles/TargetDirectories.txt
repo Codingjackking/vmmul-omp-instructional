@@ -1,7 +1,0 @@
-/global/homes/k/kingjack/vmmul-omp-instructional/build/CMakeFiles/rebuild_cache.dir
-/global/homes/k/kingjack/vmmul-omp-instructional/build/CMakeFiles/benchmark-openmp.dir
-/global/homes/k/kingjack/vmmul-omp-instructional/build/CMakeFiles/benchmark-blas.dir
-/global/homes/k/kingjack/vmmul-omp-instructional/build/CMakeFiles/edit_cache.dir
-/global/homes/k/kingjack/vmmul-omp-instructional/build/CMakeFiles/benchmark-vectorized.dir
-/global/homes/k/kingjack/vmmul-omp-instructional/build/CMakeFiles/benchmark-basic.dir
-/global/homes/k/kingjack/vmmul-omp-instructional/build/CMakeFiles/benchmark.dir
