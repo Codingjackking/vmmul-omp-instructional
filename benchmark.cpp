@@ -94,14 +94,28 @@ int main(int argc, char** argv)
 
         // insert start timer code here
         auto start = std::chrono::high_resolution_clock::now();
-
+        
         // call the method to do the work
         my_dgemv(n, A, X, Y); 
 
         // insert end timer code here, and print out the elapsed time for this problem size
         auto end = std::chrono::high_resolution_clock::now();
-        std::chrono::duration<double> elapsed = end - start;
-        std::cout << "Elapsed time: " << elapsed.count() << " seconds" << std::endl;
+
+        double duration = std::chrono::duration<double>(end - start).count();
+        
+        double cap = 204.8e9;
+
+        double mflops = 2 * n * n / 1e6 / duration;
+
+        double bytes = n * sizeof(uint64_t);
+
+        double memBanUtil = ((((bytes / 1e9) / duration) / cap) * 100) *  1e9;
+        
+        std::cout << "Elapsed time: " << duration << " seconds" << std::endl;
+        
+        std::cout << "MFLOP/s: " << mflops << "\n";
+
+        std::cout << "% Memory bandwidth utilized: " << memBanUtil << "\n" << "\n";
 
         // now invoke the cblas method to compute the matrix-vector multiplye
         reference_dgemv(n, Acopy, Xcopy, Ycopy);
