@@ -1,0 +1,32 @@
+Description:	OpenMP dgemv.
+
+Working on problem size N=1024 
+Elapsed time: 0.04219 seconds
+MFLOP/s: 49.70786
+% Memory bandwidth utilized: 0.00009
+
+Working on problem size N=1024 
+Elapsed time: 0.00727 seconds
+MFLOP/s: 288.62443
+% Memory bandwidth utilized: 0.00055
+
+Working on problem size N=2048 
+Elapsed time: 0.00727 seconds
+MFLOP/s: 1153.13350
+% Memory bandwidth utilized: 0.00110
+
+Working on problem size N=4096 
+Elapsed time: 0.00434 seconds
+MFLOP/s: 7729.60506
+% Memory bandwidth utilized: 0.00369
+
+Working on problem size N=8192 
+Elapsed time: 0.01446 seconds
+MFLOP/s: 9282.69643
+% Memory bandwidth utilized: 0.00221
+
+Working on problem size N=16384 
+Elapsed time: 0.05920 seconds
+MFLOP/s: 9068.24858
+% Memory bandwidth utilized: 0.00108
+

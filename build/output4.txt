@@ -1,0 +1,132 @@
+OMP_NUM_THREASDS =  1
+Description:	OpenMP dgemv.
+
+Working on problem size N=1024 
+Elapsed time: 0.00154 seconds
+MFLOP/s: 1359.67069
+% Memory bandwidth utilized: 0.00259
+
+Working on problem size N=1024 
+Elapsed time: 0.00150 seconds
+MFLOP/s: 1396.65998
+% Memory bandwidth utilized: 0.00266
+
+Working on problem size N=2048 
+Elapsed time: 0.00486 seconds
+MFLOP/s: 1726.23253
+% Memory bandwidth utilized: 0.00165
+
+Working on problem size N=4096 
+Elapsed time: 0.01707 seconds
+MFLOP/s: 1965.69884
+% Memory bandwidth utilized: 0.00094
+
+Working on problem size N=8192 
+Elapsed time: 0.06385 seconds
+MFLOP/s: 2102.17070
+% Memory bandwidth utilized: 0.00050
+
+Working on problem size N=16384 
+Elapsed time: 0.24517 seconds
+MFLOP/s: 2189.82321
+% Memory bandwidth utilized: 0.00026
+
+OMP_NUM_THREASDS =  4
+Description:	OpenMP dgemv.
+
+Working on problem size N=1024 
+Elapsed time: 0.00152 seconds
+MFLOP/s: 1379.82963
+% Memory bandwidth utilized: 0.00263
+
+Working on problem size N=1024 
+Elapsed time: 0.00088 seconds
+MFLOP/s: 2378.63490
+% Memory bandwidth utilized: 0.00454
+
+Working on problem size N=2048 
+Elapsed time: 0.00236 seconds
+MFLOP/s: 3549.12311
+% Memory bandwidth utilized: 0.00338
+
+Working on problem size N=4096 
+Elapsed time: 0.00559 seconds
+MFLOP/s: 6007.04136
+% Memory bandwidth utilized: 0.00286
+
+Working on problem size N=8192 
+Elapsed time: 0.01788 seconds
+MFLOP/s: 7505.53785
+% Memory bandwidth utilized: 0.00179
+
+Working on problem size N=16384 
+Elapsed time: 0.06436 seconds
+MFLOP/s: 8341.19690
+% Memory bandwidth utilized: 0.00099
+
+OMP_NUM_THREASDS =  16
+Description:	OpenMP dgemv.
+
+Working on problem size N=1024 
+Elapsed time: 0.00273 seconds
+MFLOP/s: 768.08345
+% Memory bandwidth utilized: 0.00147
+
+Working on problem size N=1024 
+Elapsed time: 0.00029 seconds
+MFLOP/s: 7342.68638
+% Memory bandwidth utilized: 0.01401
+
+Working on problem size N=2048 
+Elapsed time: 0.00164 seconds
+MFLOP/s: 5106.34589
+% Memory bandwidth utilized: 0.00487
+
+Working on problem size N=4096 
+Elapsed time: 0.00330 seconds
+MFLOP/s: 10166.99300
+% Memory bandwidth utilized: 0.00485
+
+Working on problem size N=8192 
+Elapsed time: 0.01302 seconds
+MFLOP/s: 10311.70091
+% Memory bandwidth utilized: 0.00246
+
+Working on problem size N=16384 
+Elapsed time: 0.05577 seconds
+MFLOP/s: 9625.91844
+% Memory bandwidth utilized: 0.00115
+
+OMP_NUM_THREASDS =  64
+Description:	OpenMP dgemv.
+
+Working on problem size N=1024 
+Elapsed time: 0.00892 seconds
+MFLOP/s: 235.21595
+% Memory bandwidth utilized: 0.00045
+
+Working on problem size N=1024 
+Elapsed time: 0.00092 seconds
+MFLOP/s: 2272.74176
+% Memory bandwidth utilized: 0.00433
+
+Working on problem size N=2048 
+Elapsed time: 0.00176 seconds
+MFLOP/s: 4759.97733
+% Memory bandwidth utilized: 0.00454
+
+Working on problem size N=4096 
+Elapsed time: 0.00336 seconds
+MFLOP/s: 9984.25107
+% Memory bandwidth utilized: 0.00476
+
+Working on problem size N=8192 
+Elapsed time: 0.01359 seconds
+MFLOP/s: 9874.24783
+% Memory bandwidth utilized: 0.00235
+
+Working on problem size N=16384 
+Elapsed time: 0.05777 seconds
+MFLOP/s: 9293.39782
+% Memory bandwidth utilized: 0.00111
+

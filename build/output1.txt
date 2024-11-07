@@ -1,0 +1,32 @@
+Description:	Basic implementation of matrix-vector multiply.
+
+Working on problem size N=1024 
+Elapsed time: 0.00089 seconds
+MFLOP/s: 2368.46165
+% Memory bandwidth utilized: 0.00452
+
+Working on problem size N=1024 
+Elapsed time: 0.00088 seconds
+MFLOP/s: 2372.32779
+% Memory bandwidth utilized: 0.00452
+
+Working on problem size N=2048 
+Elapsed time: 0.00359 seconds
+MFLOP/s: 2338.82775
+% Memory bandwidth utilized: 0.00223
+
+Working on problem size N=4096 
+Elapsed time: 0.01458 seconds
+MFLOP/s: 2301.58496
+% Memory bandwidth utilized: 0.00110
+
+Working on problem size N=8192 
+Elapsed time: 0.05825 seconds
+MFLOP/s: 2303.97663
+% Memory bandwidth utilized: 0.00055
+
+Working on problem size N=16384 
+Elapsed time: 0.23310 seconds
+MFLOP/s: 2303.22060
+% Memory bandwidth utilized: 0.00027
+
