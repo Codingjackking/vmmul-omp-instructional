@@ -103,19 +103,19 @@ int main(int argc, char** argv)
 
         double duration = std::chrono::duration<double>(end - start).count();
         
-        // double cap = 204.8e9;
+        double cap = 204.8e9;
 
-        // double mflops = 2 * n * n / 1e6 / duration;
+        double mflops = 2 * n * n / 1e6 / duration;
 
-        // double bytes = n * sizeof(uint64_t);
+        double bytes = n * sizeof(uint64_t);
 
-        // double memBanUtil = ((((bytes / 1e9) / duration) / cap) * 100) *  1e9;
+        double memBanUtil = ((((bytes / 1e9) / duration) / cap) * 100) *  1e9;
         
         std::cout << "Elapsed time: " << duration << " seconds" << std::endl;
         
-        // std::cout << "MFLOP/s: " << mflops << "\n";
+        std::cout << "MFLOP/s: " << mflops << "\n";
 
-        // std::cout << "% Memory bandwidth utilized: " << memBanUtil << "\n" << "\n";
+        std::cout << "% Memory bandwidth utilized: " << memBanUtil << "\n" << "\n";
 
         // now invoke the cblas method to compute the matrix-vector multiplye
         reference_dgemv(n, Acopy, Xcopy, Ycopy);
